@@ -1,0 +1,3 @@
+# Preserve the exact bytes from upstream.
+/LICENSE -text
+/data/rules.csv -text

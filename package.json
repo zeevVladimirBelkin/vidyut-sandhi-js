@@ -1,0 +1,22 @@
+{
+  "name": "vidyut-sandhi-js",
+  "version": "0.1.0",
+  "description": "JavaScript port of Vidyut's inverse Sanskrit sandhi splitter",
+  "type": "module",
+  "license": "MIT",
+  "exports": {
+    ".": "./dist/index.js",
+    "./rules.csv": "./dist/rules.csv"
+  },
+  "files": [
+    "NOTICE.md",
+    "dist/index.js",
+    "dist/rules.csv",
+    "dist/LICENSE",
+    "dist/NOTICE.md"
+  ],
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test"
+  }
+}
